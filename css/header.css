@@ -14,25 +14,20 @@
   background: none;
   border: none;
   cursor: pointer;
-  color: #4e74ba; /* Light blue color */
-  font-family: monospace;
-  font-weight: bold;
-  letter-spacing: 2px;
+  color: #4B6A9B; /* Light blue color */
+  font-family: Space Mono;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  line-height: 140%;
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-/* Flips the moonicon horizontally */
-.theme-btn span {
-  display: inline-block;
-  transform: scaleX(-1);
-}
-
 .moon-icon {
-  width: 18px;
-  height: 18px;
-  color: #4d6ca5; /* Light blue color */
+  width: 20px;
+  height: 20px;
+  color: #4B6A9B; /* Light blue color */
   transform: scaleX(-1); /* Flips direction */
 }
 
