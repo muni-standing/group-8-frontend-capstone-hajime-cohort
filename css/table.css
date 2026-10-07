@@ -1,0 +1,17 @@
+/* FACTS TABLE styles — Hamida (HTML), Victoria (phone layout), Munirat (CSS + reviews)
+   Use the shared colours and fonts from variables.css. Example:
+     background-color: var(--color-table-header-bg);
+     color: var(--color-table-header-text);
+   Do NOT hardcode hex codes here — if a colour's missing, ask Munirat.
+
+   Reminders:
+   - Header row (Name/Mass/Diameter): --color-table-header-bg + --color-table-header-text
+   - Group-label cells (Terrestrial Planets, etc.): --color-table-group-bg
+   - Data row background: --color-table-row-bg
+     (dark-mode versions of both aren't confirmed yet — check Figma)
+   - Body numbers use --color-table-text (stays the same in both themes)
+   - On phone width: show only Name and Diameter columns, hide Mass
+   - Dwarf Planets is a single row (Pluto) — no rowspan needed there
+   - Wrap <table> in a .table-wrapper div for the rounded corners to work
+     (border-radius doesn't apply cleanly on a table with border-collapse)
+*/
