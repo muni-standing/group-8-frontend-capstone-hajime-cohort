@@ -1,0 +1,15 @@
+/* PLANET CARD styles — Uyai (HTML), Afeez (CSS)
+   Use the shared colours and fonts from variables.css. Example:
+     background-color: var(--color-surface);
+     border-radius: var(--radius-card);
+     box-shadow: var(--shadow-card);
+     font-family: var(--font-card); — Space Mono, used only inside the card
+
+   Do NOT hardcode hex codes here — if a colour's missing, ask Munirat.
+
+   Reminders:
+   - Planet name + stat values use --color-text-primary
+   - Stat labels (Gravity/Mass/Period) + description use --color-text-secondary
+   - Planet type (e.g. "Terrestrial") uses --color-accent
+   - Profile picture size: var(--size-profile-image) — 117px
+*/

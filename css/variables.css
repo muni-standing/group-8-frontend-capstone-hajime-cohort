@@ -1,0 +1,77 @@
+:root {
+  /* Backgrounds */
+  --color-bg: #F6F8FF;
+  --color-surface: #FFFFFF;
+
+  /* Buttons, links, planet type label */
+  --color-accent: #0079FF;
+  --color-accent-hover: #60ABFF;
+
+  /* Section headings, e.g. "Planetary Facts at a Glance" */
+  --color-heading: #164BAF;
+
+  /* Section subtitle paragraph (under the main heading) */
+  --color-section-subtitle: #0F2A44;
+
+  /* Small caption line, e.g. "Data about the planets..." */
+  --color-caption: #0F2A44;
+
+  /* Planet name, stat values (9.8, 365, etc.) */
+  --color-text-primary: #2B3442;
+
+  /* Stat labels (Gravity/Mass/Period), description, footer text, icon numbers */
+  --color-text-secondary: #4B6A9B;
+
+  /* Table body numbers (0.330, 4878) */
+  --color-table-text: #212121;
+
+  /* Table header row background + text */
+  --color-table-header-bg: #164BAF;
+  --color-table-header-text: #FFFFFF;
+
+  /* Table group-label cells (Terrestrial Planets, etc.) */
+  --color-table-group-bg: #D1E3FF;
+
+  /* Table data row background */
+  --color-table-row-bg: #F2F7FF;
+
+  /* Error / "No results" */
+  --color-error: #F74646;
+  --color-error-text: #697C9A;
+
+  /* Fonts */
+  --font-card: 'Space Mono', monospace;
+  --font-main: 'Inter', sans-serif;
+
+  /* Shape */
+  --radius-card: 15px;
+  --radius-search-bar: 16px;
+  --radius-button: 10px;
+  --shadow-card: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+
+  /* Sizes */
+  --size-profile-image: 117px;
+
+  /* Page layout — shared by every section, don't duplicate this locally */
+  --size-page-max-width: 1200px;
+  --size-page-padding: 24px;
+
+  /* Spacing scale — use instead of hardcoded px margins */
+  --size-spacing-1: 8px;
+  --size-spacing-2: 16px;
+  --size-spacing-3: 24px;
+  --size-spacing-4: 32px;
+}
+
+body.dark-mode {
+  --color-bg: #141D2F;
+  --color-surface: #1E2A47;
+  --color-heading: #D1E3FF;
+  --color-section-subtitle: #90A4D4;
+  --color-caption: #D1E3FF;
+  --color-text-primary: #D1E3FF;
+  --color-text-secondary: #D1E3FF;
+  --color-table-header-bg: #90A4D4;
+  /* --color-table-group-bg dark version: not yet confirmed — check Figma when styling the table */
+  /* --color-table-row-bg dark version: not yet confirmed — check Figma when styling the table */
+}
