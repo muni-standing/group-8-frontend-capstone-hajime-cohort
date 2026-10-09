@@ -1,3 +1,4 @@
+
 body {
   background-color: var(--color-bg);
 }
@@ -39,4 +40,16 @@ body {
   fill: currentColor;
   transform: scaleX(-1); /* Flips direction */
 }
+
+/* HEADER styles — Victor, Aisha
+   Use the shared colours and fonts from variables.css. Example:
+     background-color: var(--color-bg);
+     color: var(--color-text-primary);
+     font-family: var(--font-main);
+   Do NOT hardcode hex codes here — if a colour's missing, ask Munirat.
+
+   Reminder: the dark/light toggle itself (swapping body.dark-mode and
+   swapping the logo image) is handled in js/theme.js by Aisha — this
+   file is just the visual styling of the header and toggle button.
+*/
 
