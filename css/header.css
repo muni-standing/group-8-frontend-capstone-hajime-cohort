@@ -1,9 +1,17 @@
+body {
+  background-color: var(--color-bg);
+}
+.page-layout {
+  max-width: var(--size-page-max-width);
+  padding: var(--size-page-padding);
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f7f7f7;
   padding: 2px 2px;
+  height: 52.08px;
+  width: 100%;
 }
 
 .navbar img {
@@ -14,20 +22,21 @@
   background: none;
   border: none;
   cursor: pointer;
-  color: #4B6A9B; /* Light blue color */
-  font-family: Space Mono;
+  color: var(--color-text-secondary);
+  font-family: var(--color-font-mono);
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 2.5px;
   line-height: 140%;
   display: flex;
-  align-items: center;
+  horizontally-align: right;
   gap: 8px;
 }
 
 .moon-icon {
   width: 20px;
   height: 20px;
-  color: #4B6A9B; /* Light blue color */
+  fill: currentColor;
   transform: scaleX(-1); /* Flips direction */
 }
 
