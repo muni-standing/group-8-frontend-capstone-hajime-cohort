@@ -10,3 +10,167 @@
    - :focus on the input and button (blue ring)
    - the "No results" state (--color-error, --color-error-text)
 */
+
+/* ========== Light mode ========== */
+.search {
+  box-sizing: border-box;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--size-spacing-3);
+  width: 100%;
+  max-width: var(--size-page-max-width);
+  padding: 10.5px 12px 10.5px 24px;
+  background: var(--color-surface);
+  border-radius: var(--radius-search-bar);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  font-family: var(--font-mono);
+}
+
+.search-input {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  gap: calc(var(--size-spacing-1) * 2.5);    /* 20px, matches Figma */               
+  min-width: 0;
+}
+
+.search-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.search-field {
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  outline: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  font: 400 18px/1.4 var(--font-mono);
+  color: var(--color-text-primary);
+}
+
+.search-field::placeholder {
+  color: var(--color-text-secondary);
+  opacity: 0.7;
+}
+
+/* removes the browser's built-in "x" on type="search" */
+.search-field::-webkit-search-cancel-button,
+.search-field::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.search-error {
+  flex-shrink: 0;
+  margin-right: var(--size-spacing-3);        
+  font: 700 16px/1.5 var(--font-mono);
+  color: var(--color-error);
+  white-space: nowrap;
+}
+
+.search-error[hidden] {
+  display: none;
+}
+
+.search-button {
+  flex-shrink: 0;
+  padding: 12px var(--size-spacing-3);
+  background: var(--color-accent);
+  border: 0;
+  border-radius: var(--radius-button);
+  font: 700 16px/1.5 var(--font-mono);
+  color: var(--color-surface);
+  cursor: pointer;
+}
+
+/* ========== Hover ========== */
+.search-button:hover {
+  background: var(--color-accent-hover);
+}
+
+/* ========== Focus ========== */
+.search:focus-within {
+  box-shadow:
+    0 0 0 3px var(--color-bg),
+    0 0 0 5px var(--color-accent),
+    var(--shadow-card);
+}
+
+.search-button:focus-visible {
+  outline: 0;
+  box-shadow:
+    0 0 0 3px var(--color-bg),
+    0 0 0 5px var(--color-accent);
+}
+
+/* ========== Dark mode ========== */
+body.dark-mode .search {
+  background: var(--color-surface);
+  box-shadow: none;
+}
+
+body.dark-mode .search-field {
+  color: white;
+}
+
+body.dark-mode .search-field::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+body.dark-mode .search-button {
+  color: white;
+}
+
+body.dark-mode .search:focus-within {
+  box-shadow:
+    0 0 0 3px var(--color-bg),
+    0 0 0 5px var(--color-accent),
+    var(--shadow-card);
+}
+
+body.dark-mode .search-button:focus-visible {
+  outline: 0;
+  box-shadow:
+    0 0 0 3px var(--color-surface),
+    0 0 0 5px var(--color-accent);
+}
+
+/* ========== Mobile ========== */
+@media (max-width: 600px) {
+  .search {
+    gap: var(--size-spacing-1);             
+    padding: 10.5px 12px;
+  }
+
+  .search-input {
+    align-items: center;
+    gap: var(--size-spacing-1);               
+  }
+
+  .search-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .search-field {
+    font-size: 13px;
+  }
+
+  .search-error {
+    margin-right: var(--size-spacing-1);        
+    font-size: 13px;
+  }
+
+  .search-button {
+    padding: 12px calc(var(--size-spacing-1) * 2.5);
+  }
+}
