@@ -29,7 +29,6 @@ body {
   letter-spacing: 2.5px;
   line-height: 140%;
   display: flex;
-  horizontally-align: right;
   gap: 8px;
 }
 
