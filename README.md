@@ -50,11 +50,11 @@ Each person uses only their own branch(es), every time they work on that part.
 | Hamida | Facts table HTML | `table-html-hamida` |
 | Victoria | Facts table CSS + phone layout | `table-css-victoria` |
 | Adannia | Footer HTML | `footer-html-adannia` |
-| Teddy | Footer CSS | `footer-css-teddy` |
+| Tobby | Footer CSS | `footer-css-teddy` |
 | Qudus | Planet search (API) | `api-js-qudus` |
 | Asimau | Testing fixes (from 10 Oct) | `fixes-asimau` |
-| Munirat | README + table help | `readme-munirat`, `table-help-munirat` |
-| Wale | Shared colours + API help | `base-wale`, `api-help-wale` |
+| Munirat | Project foundation, shared CSS, assets + documentation | `base-project-structure`, `css-variables-munirat`, `shared-setup-munirat` |
+| Wale | Project coordination, reviews + merge support | `base-wale`, `api-help-wale` |
 
 ## How we work
 - Never push directly to `main`.
