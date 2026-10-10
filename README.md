@@ -26,8 +26,8 @@ _Link added once deployed._
 | Hamida | |
 | Victoria | |
 | Adannia | |
-| Tobby | |
-| Qudus | |
+| Teddy | |
+| Qudus | [Qooks18009009](https://github.com/Qooks18009009) |
 | Asimau | |
 
 _(Everyone fills in their own GitHub link in their first Pull Request.)_
