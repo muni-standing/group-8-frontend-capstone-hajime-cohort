@@ -71,7 +71,37 @@ body.dark-mode {
   --color-caption: #D1E3FF;
   --color-text-primary: #D1E3FF;
   --color-text-secondary: #D1E3FF;
-  --color-table-header-bg: #90A4D4;
-  /* --color-table-group-bg dark version: not yet confirmed — check Figma when styling the table */
-  /* --color-table-row-bg dark version: not yet confirmed — check Figma when styling the table */
+  --color-table-header-bg: var(--color-bg);
+  --color-table-group-bg: #90A4D4;
+}
+
+/* =========================================
+   SHARED BASE STYLES
+   ========================================= */
+
+/* Make sizing predictable across the app */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Apply our shared design tokens to the page */
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-main);
+}
+
+/* Keep images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Ensure hidden elements remain hidden */
+[hidden] {
+  display: none !important;
 }
