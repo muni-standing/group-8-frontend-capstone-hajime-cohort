@@ -48,83 +48,84 @@
 
 
   <!-- CARD (Uyai, Afeez) -->
-<section class="planet-card" aria-label="Planet information">
+<section class="card" id="card" aria-label="Planet information" aria-live="polite">
 
   <div class="card-content">
 
     <div class="card-image-container">
       <img
         class="card-image"
-        src=""
-        alt="Planet">
+        id="card-image"
+        src="images/ProfilePicture.svg"
+        alt="Planet Earth">
     </div>
 
     <div class="card-details">
 
-      <h2 class="card-name"></h2>
+      <h2 class="card-name" id="card-name"> Earth</h2>
 
-      <p class="card-type"></p>
+      <p class="card-type" id="card-type">Terrestrial</p>
 
-      <p class="card-description"></p>
+      <p class="card-description" id="card-description">The only known planet to support life, with liquid water on the surface.</p>
 
-      <div class="card-stats">
+      <div class="card-stats" role="group" aria-label="Planet statistics">
 
         <div class="card-stat">
           <span class="card-stat-label">Gravity</span>
-          <span class="card-stat-value"></span>
+          <span class="card-stat-value" id="card-gravity">9.8</span>
         </div>
 
         <div class="card-stat">
           <span class="card-stat-label">Mass</span>
-          <span class="card-stat-value"></span>
+          <span class="card-stat-value" id="card-mass">0.00315</span>
         </div>
 
         <div class="card-stat">
           <span class="card-stat-label">Period</span>
-          <span class="card-stat-value"></span>
+          <span class="card-stat-value" id="card-period">365</span>
         </div>
 
       </div>
 
-       <div class="card-icon-stats">
+       <div class="card-icon-stats" role="group" aria-label="More planet facts">
 
          <div class="card-icon-stat">
             <img
              src="images/TemperatureIcon.svg"
-              alt=""
+              alt="Temperature"
               class="card-icon">
-           <span class="card-icon-value">
-
+           <span class="card-icon-value" id="card-temperature">
+            288
            </span>
          </div>
 
           <div class="card-icon-stat">
             <img
               src="images/Halfmoon.svg"
-              alt=""
+              alt="Moons"
               class="card-icon">
-            <span class="card-icon-value">
-
+            <span class="card-icon-value" id="card-moons">
+              1
             </span>
           </div>
 
          <div class="card-icon-stat">
             <img
               src="images/Diameter.svg"
-              alt=""
+              alt="Diameter"
               class="card-icon">
-            <span class="card-icon-value">
-
+            <span class="card-icon-value" id="card-diameter">
+              12756
             </span>
           </div>
 
          <div class="card-icon-stat">
            <img
               src="images/CompanyIcon.svg"
-             alt=""
+             alt="Distance from the sun"
               class="card-icon">
-           <span class="card-icon-value">
-
+           <span class="card-icon-value" id="card-distance">
+            149.6
            </span>
          </div>
 
@@ -135,6 +136,15 @@
   </div>
 
 </section>
+
+<p class="card-loading" id="card-loading" role="status" hidden>Loading...</p>
+
+<div class="card-empty" id="card-empty" hidden>
+  <h2 class="card-empty-title">No results found!</h2>
+  <p class="card-empty-text">
+    We couldn't find any planets matching your search. Please double-check the name and try again.
+  </p>
+</div>
   <!-- END CARD -->
 
 
