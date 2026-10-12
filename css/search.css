@@ -1,0 +1,12 @@
+/* SEARCH BAR styles — Ayobami
+   Use the shared colours and fonts from variables.css. Example:
+     background-color: var(--color-surface);
+     border-radius: var(--radius-search-bar);
+     color: var(--color-text-primary);
+   Do NOT hardcode hex codes here — if a colour's missing, ask Munirat.
+
+   Don't forget to style:
+   - :hover on the Search button (--color-accent-hover)
+   - :focus on the input and button (blue ring)
+   - the "No results" state (--color-error, --color-error-text)
+*/
