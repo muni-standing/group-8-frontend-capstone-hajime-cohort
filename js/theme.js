@@ -1,13 +1,16 @@
-const toggleButton = document.getElementById("theme-toggle");
+const themeButton = document.querySelector(".theme-btn");
+const themeText = document.querySelector("theme-btn-text");
 
-toggleButton.addEventListener("click", function () {
+function setTheme(isDark) {
+    document.body.classList.toggle("dark-mode", isDark)
+    themeText.textContent = isDark ? "LIGHT" : "DARK";
+    themeButton.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+    localStorage.setItem("theme", isDark ? "dark" : "light")
+}
 
-    document.body.classList.toggle("dark");
+setTheme(localStorage.getItem("theme") = "dark");
 
-    if (document.body.classList.contains("dark")) {
-        toggleButton.textContent = "☀️ Light Mode";
-    } else {
-        toggleButton.textContent = "🌙 Dark Mode";
-    }
-
+themeButton.addEventListener("click", () → {
+    setTheme(document.body.classList.contains("dark-mode"));
 });
+---
