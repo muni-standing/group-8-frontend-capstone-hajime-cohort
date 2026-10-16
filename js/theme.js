@@ -10,7 +10,6 @@ function setTheme(isDark) {
 
 setTheme(localStorage.getItem("theme") = "dark");
 
-themeButton.addEventListener("click", () → {
+themeButton.addEventListener("click", () => {
     setTheme(document.body.classList.contains("dark-mode"));
 });
----
