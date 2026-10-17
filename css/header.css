@@ -3,6 +3,8 @@ body {
   background-color: var(--color-bg);
 }
 .page-layout {
+  margin-inline: auto;
+  box-sizing: border-box;
   max-width: var(--size-page-max-width);
   padding: var(--size-page-padding);
 }
