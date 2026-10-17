@@ -22,7 +22,7 @@ _Link added once deployed._
 | Wale (Vice Captain) | [@Mitchr3p](https://github.com/Mitchr3p) |
 | Victor              |                                          |
 | Aisha               |                                          |
-| Ayobami             |                                          |
+| Ayobami             | [@ay-ux1](https://github.com/ay-ux1)     |
 | Uyai                |                                          |
 | Afeez               |                                          |
 | Hamida              |                                          |
