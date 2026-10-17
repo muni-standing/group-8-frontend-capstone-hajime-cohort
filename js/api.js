@@ -1,75 +1,109 @@
+
 const API_URL = "https://anurella.github.io/json/planet.json";
-// The HTMA pieces we use. Don't rename classes or ids.
-const searchForm = document.querySelector(".search"); // Ayobami's form
+
+// HTML elements used by the search feature
+const searchForm = document.querySelector(".search");
 const searchInput = document.querySelector(".search-field");
 const searchError = document.querySelector(".search-error");
+
 const card = document.getElementById("card");
 const cardEmpty = document.getElementById("card-empty");
-const cardLoading = document.getElementById("card-loading"); // "loading..." text
-let planets = []; // the list of 9 planets, once it has loaded
-// 1. get all the planets from the API (only the first time)
+const cardLoading = document.getElementById("card-loading");
+
+// Store the planets after fetching them
+let planets = [];
+
+// 1. Fetch planet data from the API
 async function loadPlanets() {
     const response = await fetch(API_URL);
-    if (!response.ok) throw new Error("API returned " + response.staus);
+
+    if (!response.ok) {
+        throw new Error("API returned " + response.status);
+    }
+
     planets = await response.json();
 }
-// 2. Find one planet by name. "earth", "Earth" and "EARTH" all works.
-function findplanet(name){
-const search = name.trim().tolowerCase();
-return planets.find((plant) => planet.name.tolowerCase() === search);
+
+// 2. Find a planet by name (case-insensitive)
+function findPlanet(name) {
+    const search = name.trim().toLowerCase();
+
+    return planets.find(
+        (planet) => planet.name.toLowerCase() === search
+    );
 }
-// 3. Put a planet's facts into the card and show it
+
+// 3. Update a text element
 function setText(id, value) {
     document.getElementById(id).textContent = value;
 }
-function showPlanet(plnaet) {
-const image = document.getElementById("card-image")
-image.src = planet.image;
-image.alt = planet.name;
-setText("card-name", planert.name);
-setText("card-type", planert.type);
-setText("card-description", planert.description);
-setText("card-gravity", planert.gravity);
-setText("card-mass", planert.mass);
-setText("card-period", planert.period);
-setText("card-temperature", planert.temperature);
-setText("card-moons", planert.moons);
-setText("card-diameter", planert.diameter);
-setText("card-distance", planert.distanceFromSun);
-card.hideen = false;
-cardEmpty.hidden = true
-cardLoading.hidden = true;
-searchError.hidden = true;
+
+// 4. Display the selected planet
+function showPlanet(planet) {
+    const image = document.getElementById("card-image");
+
+    image.src = planet.image;
+    image.alt = "Planet " + planet.name;
+
+    setText("card-name", planet.name);
+    setText("card-type", planet.type);
+    setText("card-description", planet.description);
+    setText("card-gravity", planet.gravity);
+    setText("card-mass", planet.mass);
+    setText("card-period", planet.period);
+    setText("card-temperature", planet.temperature);
+    setText("card-moons", planet.moons);
+    setText("card-diameter", planet.diameter);
+    setText("card-distance", planet.distanceFromSun);
+
+    card.hidden = false;
+    cardEmpty.hidden = true;
+    cardLoading.hidden = true;
+    searchError.hidden = true;
 }
-// 4. Noting matched (or the API could not be reached)
-function showNoResults(){
+
+// 5. Display a message when no planet is found
+function showNoResults() {
     card.hidden = true;
     cardEmpty.hidden = false;
     cardLoading.hidden = true;
     searchError.hidden = false;
 }
-// 5. While we wait for the API: Show "Loading..." in the card space
-function showLoading(){
+
+// 6. Display the loading state
+function showLoading() {
     card.hidden = true;
     cardEmpty.hidden = true;
     cardLoading.hidden = false;
     searchError.hidden = true;
 }
-// When the user clicks search or presses Enter
+
+// 7. Handle planet searches
 searchForm.addEventListener("submit", async (event) => {
-    event.preventDefault(); // stop the page from loading
-    if (searchInput.value.trim() === "") return; // empty search: do nothing
+    event.preventDefault();
+
+    const query = searchInput.value.trim();
+
+    // Ignore empty searches
+    if (query === "") return;
+
     showLoading();
+
     try {
-        if (planets.lenght === 0) await loadPlanets();
-        const planet = findPlanet(searchInput.value);
+        // Fetch the API data only if we haven't loaded it yet
+        if (planets.length === 0) {
+            await loadPlanets();
+        }
+
+        const planet = findPlanet(query);
+
         if (planet) {
             showPlanet(planet);
         } else {
             showNoResults();
         }
     } catch (error) {
-        console.error(error);
+        console.error("Planet search failed:", error);
         showNoResults();
     }
 });
