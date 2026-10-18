@@ -25,291 +25,278 @@
 
   <body>
     <div class="container">
-    <!-- HEADER (Victor, Aisha) -->
-    <header class="page-layout">
-      <main class="navbar">
-        <img src="images/logo_black.svg" alt="planet logo" />
-        <button type="button" class="theme-btn">
-          <span class="theme-btn-text">LIGHT</span>
-          <svg aria-hidden="true" class="sun-icon" viewBox="0 0 24 24">
-            <path
-              fill="currentColor"
-              d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z"
-            />
-          </svg>
-          <svg aria-hidden="true" class="moon-icon" viewBox="0 0 24 24">
-            <path
-              fill="currentColor"
-              d="M12.3 22c5.523 0 10-4.477 10-10 0-4.394-2.834-8.127-6.78-9.458a.75.75 0 0 0-.937.892c.62 2.378.136 4.962-1.372 6.883-1.508 1.921-3.864 3.033-6.326 3.033-1.077 0-2.126-.217-3.111-.645a.75.75 0 0 0-.962.887C4.167 18.275 7.854 22 12.3 22z"
-            />
-          </svg>
-        </button>
-      </main>
-    </header>
+      <!-- HEADER (Victor, Aisha) -->
+      <header class="page-layout">
+        <main class="navbar">
+          <img src="images/logo_black.svg" alt="planet logo" />
+          <button type="button" class="theme-btn">
+            <span class="theme-btn-text">DARK</span>
+            <svg aria-hidden="true" class="sun-icon" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z"
+              />
+            </svg>
+            <svg aria-hidden="true" class="moon-icon" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M12.3 22c5.523 0 10-4.477 10-10 0-4.394-2.834-8.127-6.78-9.458a.75.75 0 0 0-.937.892c.62 2.378.136 4.962-1.372 6.883-1.508 1.921-3.864 3.033-6.326 3.033-1.077 0-2.126-.217-3.111-.645a.75.75 0 0 0-.962.887C4.167 18.275 7.854 22 12.3 22z"
+              />
+            </svg>
+          </button>
+        </main>
+      </header>
 
-    <!-- END HEADER -->
+      <!-- END HEADER -->
 
-    <!-- SEARCH (Ayobami) -->
-    <form class="search" role="search">
-      <div class="search-input">
-        <img
-          src="images/SearchIcon.svg"
-          class="search-icon"
-          alt=""
-          aria-hidden="true"
-        />
-        <input
-          class="search-field"
-          type="search"
-          name="planet"
-          placeholder="Search planet name..."
-          aria-label="Search planet name"
-        />
-        <span class="search-error" role="alert" hidden>No results </span>
-      </div>
-
-      <button class="search-button" type="submit">Search</button>
-    </form>
-    <!-- END SEARCH -->
-
-    <!-- CARD (Uyai, Afeez) -->
-    <section
-      class="card"
-      id="card"
-      aria-label="Planet information"
-      aria-live="polite"
-    >
-      <div class="card-content">
-        <div class="card-image-container">
+      <!-- SEARCH (Ayobami) -->
+      <form class="search" role="search">
+        <div class="search-input">
           <img
-            class="card-image"
-            id="card-image"
-            src="images/ProfilePicture.svg"
-            alt="Planet Earth"
+            src="images/SearchIcon.svg"
+            class="search-icon"
+            alt=""
+            aria-hidden="true"
           />
+          <input
+            class="search-field"
+            type="search"
+            name="planet"
+            placeholder="Search planet name..."
+            aria-label="Search planet name"
+          />
+          <span class="search-error" role="alert" hidden>No results </span>
         </div>
 
-        <div class="card-details">
-          <h2 class="card-name" id="card-name">Earth</h2>
+        <button class="search-button" type="submit">Search</button>
+      </form>
+      <!-- END SEARCH -->
 
-          <p class="card-type" id="card-type">Terrestrial</p>
-
-          <p class="card-description" id="card-description">
-            The only known planet to support life, with liquid water on the
-            surface.
-          </p>
-
-          <div class="card-stats" role="group" aria-label="Planet statistics">
-            <div class="card-stat">
-              <span class="card-stat-label">Gravity</span>
-              <span class="card-stat-value" id="card-gravity">9.8</span>
-            </div>
-
-            <div class="card-stat">
-              <span class="card-stat-label">Mass</span>
-              <span class="card-stat-value" id="card-mass">0.00315</span>
-            </div>
-
-            <div class="card-stat">
-              <span class="card-stat-label">Period</span>
-              <span class="card-stat-value" id="card-period">365</span>
-            </div>
+      <!-- CARD (Uyai, Afeez) -->
+      <section
+        class="card"
+        id="card"
+        aria-label="Planet information"
+        aria-live="polite"
+      >
+        <div class="card-content">
+          <div class="card-image-container">
+            <img
+              class="card-image"
+              id="card-image"
+              src="images/ProfilePicture.svg"
+              alt="Planet Earth"
+            />
           </div>
 
-          <div
-            class="card-icon-stats"
-            role="group"
-            aria-label="More planet facts"
-          >
-            <div class="card-icon-stat">
-              <img
-                src="images/TemperatureIcon.svg"
-                alt="Temperature"
-                class="card-icon"
-              />
-              <span class="card-icon-value" id="card-temperature"> 288 </span>
+          <div class="card-details">
+            <h2 class="card-name" id="card-name">Earth</h2>
+
+            <p class="card-type" id="card-type">Terrestrial</p>
+
+            <p class="card-description" id="card-description">
+              The only known planet to support life, with liquid water on the
+              surface.
+            </p>
+
+            <div class="card-stats" role="group" aria-label="Planet statistics">
+              <div class="card-stat">
+                <span class="card-stat-label">Gravity</span>
+                <span class="card-stat-value" id="card-gravity">9.8</span>
+              </div>
+
+              <div class="card-stat">
+                <span class="card-stat-label">Mass</span>
+                <span class="card-stat-value" id="card-mass">0.00315</span>
+              </div>
+
+              <div class="card-stat">
+                <span class="card-stat-label">Period</span>
+                <span class="card-stat-value" id="card-period">365</span>
+              </div>
             </div>
 
-            <div class="card-icon-stat">
-              <img src="images/Halfmoon.svg" alt="Moons" class="card-icon" />
-              <span class="card-icon-value" id="card-moons"> 1 </span>
-            </div>
+            <div
+              class="card-icon-stats"
+              role="group"
+              aria-label="More planet facts"
+            >
+              <div class="card-icon-stat">
+                <img
+                  src="images/TemperatureIcon.svg"
+                  alt="Temperature"
+                  class="card-icon"
+                />
+                <span class="card-icon-value" id="card-temperature"> 288 </span>
+              </div>
 
-            <div class="card-icon-stat">
-              <img src="images/Diameter.svg" alt="Diameter" class="card-icon" />
-              <span class="card-icon-value" id="card-diameter"> 12756 </span>
-            </div>
+              <div class="card-icon-stat">
+                <img src="images/Halfmoon.svg" alt="Moons" class="card-icon" />
+                <span class="card-icon-value" id="card-moons"> 1 </span>
+              </div>
 
-            <div class="card-icon-stat">
-              <img
-                src="images/CompanyIcon.svg"
-                alt="Distance from the sun"
-                class="card-icon"
-              />
-              <span class="card-icon-value" id="card-distance"> 149.6 </span>
+              <div class="card-icon-stat">
+                <img
+                  src="images/Diameter.svg"
+                  alt="Diameter"
+                  class="card-icon"
+                />
+                <span class="card-icon-value" id="card-diameter"> 12756 </span>
+              </div>
+
+              <div class="card-icon-stat">
+                <img
+                  src="images/CompanyIcon.svg"
+                  alt="Distance from the sun"
+                  class="card-icon"
+                />
+                <span class="card-icon-value" id="card-distance"> 149.6 </span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <p class="card-loading" id="card-loading" role="status" hidden>
-      Loading...
-    </p>
-
-    <div class="card-empty" id="card-empty" hidden>
-      <h2 class="card-empty-title">No results found!</h2>
-      <p class="card-empty-text">
-        We couldn't find any planets matching your search. Please double-check
-        the name and try again.
+      <p class="card-loading" id="card-loading" role="status" hidden>
+        Loading...
       </p>
-    </div>
-    <!-- END CARD -->
 
-    <!-- TABLE (Hamida, Victoria) -->
- <section class="table-section">
+      <div class="card-empty" id="card-empty" hidden>
+        <h2 class="card-empty-title">No results found!</h2>
+        <p class="card-empty-text">
+          We couldn't find any planets matching your search. Please double-check
+          the name and try again.
+        </p>
+      </div>
+      <!-- END CARD -->
+
+      <!-- TABLE (Hamida, Victoria) -->
+      <section class="table-section">
         <h1>Planetary Facts at a Glance</h1>
-                <p>Below is a comparative table of major planets in our solar system. The data highlights key
-            physical properties used by astronomers and researchers worldwide.</p>
+        <p>
+          Below is a comparative table of major planets in our solar system. The
+          data highlights key physical properties used by astronomers and
+          researchers worldwide.
+        </p>
         <div class="table-container">
-            <table class="planet-table">
-                <caption class="table-caption">
-                    <span class="first-part">Data about the planets of our solar system</span>
-                    <span class="second-part"> (Planetary facts taken from NASA)</span>
-                </caption>
+          <table class="planet-table">
+            <caption class="table-caption">
+              <span class="first-part"
+                >Data about the planets of our solar system</span
+              >
+              <span class="second-part">
+                (Planetary facts taken from NASA)</span
+              >
+            </caption>
 
+            <thead>
+              <tr>
+                <th scope="col" class="first-head" colspan="2"></th>
+                <th scope="col">Name</th>
+                <th scope="col" class="mass">Mass (10 <sup>24</sup> kg )</th>
+                <th scope="col" class="last-head">Diameter (km)</th>
+              </tr>
+            </thead>
 
+            <tbody>
+              <tr>
+                <td class="category-cell" rowspan="4" colspan="2">
+                  Terrestrial Planets
+                </td>
+                <td>Mercury</td>
+                <td class="mass">0.330</td>
+                <td>4,879</td>
+              </tr>
 
-                <thead>
-                    <tr>
-                    <th scope="col" class="first-head" colspan="2"></th>
-                    <th scope="col">Name</th>
-                    <th scope="col" class="mass">Mass (10 <sup>24</sup> kg )</th>
-                    <th scope="col" class="last-head">Diameter (km)</th>
-                    </tr>
-                </thead>
+              <tr>
+                <td>Venus</td>
+                <td class="mass">4.87</td>
+                <td>12,104</td>
+              </tr>
+              <tr>
+                <td>Earth</td>
+                <td class="mass">5.97</td>
+                <td>12,756</td>
+              </tr>
+              <tr>
+                <td>Mars</td>
+                <td class="mass">0.642</td>
+                <td>6,792</td>
+              </tr>
+              <tr>
+                <td class="category-cell" rowspan="4">Jovian Planets</td>
+                <td class="category-cell" rowspan="2">Gas Giants</td>
+                <td>Jupiter</td>
+                <td class="mass">1,898</td>
+                <td>142,984</td>
+              </tr>
+              <tr>
+                <td>Saturn</td>
+                <td class="mass">568</td>
+                <td>120,536</td>
+              </tr>
+              <tr>
+                <td class="category-cell" rowspan="2">Ice Giants</td>
+                <td>Uranus</td>
+                <td class="mass">86.8</td>
+                <td>51,118</td>
+              </tr>
+              <tr>
+                <td>Neptune</td>
+                <td class="mass">102</td>
+                <td>49,528</td>
+              </tr>
+              <tr>
+                <td class="category-cell" colspan="2">Dwarf Planets</td>
+                <td>Pluto</td>
+                <td class="mass">0.0130</td>
+                <td>2,376</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- END TABLE -->
 
-
-                <tbody>
-
-
-                    <tr>
-                    <td class="category-cell" rowspan="4" colspan="2">Terrestrial Planets</td>
-                        <td>Mercury</td>
-                        <td class="mass">0.330</td>
-                        <td>4,879</td>
-                    </tr>
-
-
-                    <tr>
-                        <td>Venus</td>
-                        <td class="mass">4.87</td>
-                        <td>12,104</td>
-
-
-                    </tr>
-                    <tr>
-                        <td>Earth</td>
-                        <td class="mass">5.97</td>
-                        <td>12,756</td>
-
-
-                    </tr>
-                    <tr>
-                        <td>Mars</td>
-                        <td class="mass">0.642</td>
-                        <td>6,792</td>
-
-
-                    </tr>
-                    <tr>
-                        <td class="category-cell" rowspan="4">Jovian Planets</td>
-                        <td class="category-cell" rowspan="2">Gas Giants</td>
-                        <td>Jupiter</td>
-                        <td class="mass">1,898</td>
-                        <td>142,984</td>
-
-
-                    </tr>
-                    <tr>
-
-
-                        <td>Saturn</td>
-                        <td class="mass">568</td>
-                        <td>120,536</td>
-
-
-                    </tr>
-                    <tr>
-                        <td class="category-cell" rowspan="2">Ice Giants</td>
-                        <td>Uranus</td>
-                        <td class="mass">86.8</td>
-                        <td>51,118</td>
-
-
-                    </tr>
-                    <tr>
-                        <td>Neptune</td>
-                        <td class="mass">102</td>
-                        <td>49,528</td>
-
-
-                    </tr>
-                    <tr>
-                        <td class="category-cell" colspan="2">Dwarf Planets</td>
-                        <td>Pluto</td>
-                        <td class="mass">0.0130</td>
-                        <td>2,376</td>
-                    </tr>
-                </tbody>
-
-
-            </table>
+      <!-- FOOTER (Adannia, Teddy) -->
+      <footer class="footer">
+        <div class="footer-about">
+          <h2 class="footer-about-title">About</h2>
+          <p class="footer-about-text">
+            Built by Group 8 for the TS Academy Hajime cohort capstone: Munirat,
+            Wale, Victor, Aisha, Ayobami, Uyai, Afeez, Hamida, Victoria,
+            Adannia, Tobby, Qudus and Asimau.
+          </p>
         </div>
 
-
-    </section>
-  <!-- END TABLE -->
-
-       <!-- FOOTER (Adannia, Teddy) --> 
-    <footer class="footer">
-      <div class="footer-about">
-        <h2 class="footer-about-title">About</h2>
-        <p class="footer-about-text">
-          Built by Group 8 for the TS Academy Hajime cohort capstone: Munirat,
-          Wale, Victor, Aisha, Ayobami, Uyai, Afeez, Hamida, Victoria, Adannia,
-          Tobby, Qudus and Asimau.
-        </p>
-      </div>
-
-      <div class="footer-credits">
-        <p class="footer-credits-text">
-          &copy; 2026 Design by
+        <div class="footer-credits">
+          <p class="footer-credits-text">
+            &copy; 2026 Design by
+            <a
+              class="footer-link"
+              href="https://amakandukwu.com"
+              target="_blank"
+              rel="noopener"
+              >Amaka N</a
+            >. Built by
+            <a
+              class="footer-link"
+              href="https://github.com/muni-standing/group-8-frontend-capstone-hajime-cohort"
+              target="_blank"
+              rel="noopener"
+              >Group 8</a
+            >. All rights reserved.
+          </p>
           <a
-            class="footer-link"
-            href="https://amakandukwu.com"
+            class="footer-link footer-tsacademy"
+            href="https://tsacademyonline.com/"
             target="_blank"
             rel="noopener"
-            >Amaka N</a
-          >. Built by
-          <a
-            class="footer-link"
-            href="https://github.com/muni-standing/group-8-frontend-capstone-hajime-cohort"
-            target="_blank"
-            rel="noopener"
-            >Group 8</a
-          >. All rights reserved.
-        </p>
-        <a
-          class="footer-link footer-tsacademy"
-          href="https://tsacademyonline.com/"
-          target="_blank"
-          rel="noopener"
-          >TSAcademy</a
-        >
-      </div>
-    </footer>
-    <!-- END FOOTER -->
+            >TSAcademy</a
+          >
+        </div>
+      </footer>
+      <!-- END FOOTER -->
     </div>
     <script src="js/theme.js"></script>
     <script src="js/api.js"></script>

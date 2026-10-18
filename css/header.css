@@ -52,6 +52,7 @@ body {
   width: 20px;
   height: 20px;
   fill: currentColor;
+  display: none;
 }
 
 .moon-icon {
@@ -59,16 +60,15 @@ body {
   height: 20px;
   fill: currentColor;
   transform: scaleX(-1); /* Flips direction */
-  display: none;
 }
 
-/* Light mode shows the sun, dark mode shows the moon */
+/* Light mode shows the moon (switch to dark), dark mode shows the sun (switch to light) */
 body.dark-mode .sun-icon {
-  display: none;
+  display: block;
 }
 
 body.dark-mode .moon-icon {
-  display: block;
+  display: none;
 }
 
 /* HEADER styles — Victor, Aisha
