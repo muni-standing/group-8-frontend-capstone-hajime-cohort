@@ -9,11 +9,6 @@
    - Amaka N → her site
    - GroupName → our repository
    - TSAcademy → https://tsacademyonline.com/
-*/
+*//* FOOTER styles — Adannia (HTML), Tobby (CSS). Colours and fonts come from variables.css. */
 
-.footer {
-  box-sizing: border-box;
-  width: 100%;
-  max-width: var(--size-page-max-width);
-  margin-inline: auto;
-}
+
