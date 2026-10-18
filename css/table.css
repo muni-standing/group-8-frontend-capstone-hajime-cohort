@@ -4,6 +4,7 @@
      color: var(--color-table-header-text);
    Do NOT hardcode hex codes here — if a colour's missing, ask Munirat.
 
+
    Reminders:
    - Header row (Name/Mass/Diameter): --color-table-header-bg + --color-table-header-text
    - Group-label cells (Terrestrial Planets, etc.): --color-table-group-bg
@@ -15,3 +16,159 @@
    - Wrap <table> in a .table-wrapper div for the rounded corners to work
      (border-radius doesn't apply cleanly on a table with border-collapse)
 */
+
+
+/* Theme colours */
+:root {
+    --page-bg: #F6F8FF;
+    --heading-color: #173b80;
+    --header-bg: #164BAF;
+    --header-text: #ffffff;
+    --category-bg: #D1E3FF;
+    --category-text: #172b50;
+    --data-bg: #F2F7FF;
+    --data-text: #222222;
+    --border-color: #FFFFFF;
+}
+
+
+/* Dark theme */
+html[data-theme="dark"] {
+    --page-bg: #101b35;
+    --heading-color: #ffffff;
+    --header-bg: #14294f;
+    --header-text: #ffffff;
+    --category-bg: #4675c8;
+    --category-text: #ffffff;
+    --data-bg: #e5e6eb;
+    --data-text: #172b56;
+    --border-color: #b6c9e6;
+}
+
+
+/* Page appearance
+ */
+body .table-section {
+  background-color: var(--page-bg);
+  color: var(--heading-color);
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+/* Planet facts table */
+.planet-table {
+    /* max-width: 500px; */
+    width: 70%;
+
+
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid var(--border-color);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 730px;
+    font-size: 0.8rem;
+}
+.first-head {
+    border-top-left-radius: 15px;
+}
+.last-head {
+    border-top-right-radius: 15px;
+}
+ section {
+
+
+    margin-bottom: 40px;
+}
+
+
+/* Table headings */
+.planet-table th {
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    padding: 22px 20px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+     
+}
+
+
+/* Planet data cells */
+.planet-table td {
+    background-color: var(--data-bg);
+    color: var(--data-text);
+    padding: 14px 14px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+
+
+/* Grouped planet categories */
+.planet-table .category-cell {
+    background-color: var(--category-bg);
+    color: var(--category-text);
+    font-weight: bold;
+    padding: 80px 3px;
+}
+
+
+.table-caption {
+    color: var(--heading-color);
+    caption-side: top;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+.table-container {
+    border-radius: 70px;
+}
+/* TABLET BREAKPOINT */
+/* Applies to screens 1023px wide OR SMALLER (Tablets and Mobile) */
+@media screen and (max-width: 1024px) {
+    .planet-table {
+        width: 100%;
+        overflow-x: auto;
+        max-width: 1024px;
+    }
+}
+
+
+/* MOBILE BREAKPOINT */
+/* Applies to screens 767px wide OR SMALLER (Phones only) */
+@media screen and (max-width: 767px) {
+    .planet-table {
+        width: 100%;
+        overflow-x: auto;
+        max-width: 320px;
+            }
+           
+    .planet-table th,
+    .planet-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+         .planet-table .mass{
+                    display: none;
+        }
+        .second-part {
+             display: none;
+                     }
+        .planet-table tbody tr:last-child td {
+            Border-bottom-left-radius: 20px;
+    }
+    }
+.planet-table tbody tr:last-child td {
+    padding-top: 14px;
+    padding-bottom: 26px;
+    }
+
