@@ -53,7 +53,7 @@
   --size-profile-image: 117px;
 
   /* Page layout — shared by every section, don't duplicate this locally */
-  --size-page-max-width: 780px;
+  --size-page-max-width: 1200px;
   --size-page-padding: 24px;
 
   /* Spacing scale — use instead of hardcoded px margins */
