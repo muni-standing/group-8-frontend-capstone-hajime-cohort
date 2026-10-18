@@ -6,7 +6,8 @@ body {
   margin-inline: auto;
   box-sizing: border-box;
   max-width: var(--size-page-max-width);
-  padding: var(--size-page-padding);
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .navbar {
   display: flex;
@@ -18,7 +19,8 @@ body {
 }
 
 .navbar img {
-  height: 30px;
+  width: 121px;
+  height: 53px;
 }
 
 .theme-btn {
@@ -32,7 +34,24 @@ body {
   letter-spacing: 2.5px;
   line-height: 140%;
   display: flex;
+  align-items: center;
   gap: 8px;
+  padding: 8px 12px;
+}
+
+/* ========== Focus (matches the search bar ring) ========== */
+.theme-btn:focus-visible {
+  outline: 0;
+  border-radius: 6px;
+  box-shadow:
+    0 0 0 3px var(--color-bg),
+    0 0 0 5px var(--color-accent);
+}
+
+.sun-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 .moon-icon {
@@ -40,6 +59,16 @@ body {
   height: 20px;
   fill: currentColor;
   transform: scaleX(-1); /* Flips direction */
+  display: none;
+}
+
+/* Light mode shows the sun, dark mode shows the moon */
+body.dark-mode .sun-icon {
+  display: none;
+}
+
+body.dark-mode .moon-icon {
+  display: block;
 }
 
 /* HEADER styles — Victor, Aisha

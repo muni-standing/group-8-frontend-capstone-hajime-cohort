@@ -10,3 +10,10 @@
    - GroupName → our repository
    - TSAcademy → https://tsacademyonline.com/
 */
+
+.footer {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--size-page-max-width);
+  margin-inline: auto;
+}
