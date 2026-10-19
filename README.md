@@ -36,19 +36,19 @@ This repository contains the project's source code, documentation, and developme
 
 | Team Member | GitHub Profile |
 |---|---|
-| Munirat (Captain)   |  [@muni-standing](https://github.com/muni-standing)                                         
-| Wale (Vice Captain) | [@Mitchr3p](https://github.com/Mitchr3p) 
-| Victor              | [@veekthorann](https://github.com/veekthorann)                                         
-| Aisha               | [@Ayeeshaaxoxo](https://github.com/Ayeeshaaxoxo)                                         
-| Ayobami             | [@ay-ux1](https://github.com/ay-ux1)     
-| Uyai                | [@uyaixx](https://github.com/uyaixx)                                         
-| Afeez               | [@illusions90](https://github.com/illusions90)                                        
-| Hamida              | [@ihammy266](https://github.com/ihammy266)                                         
-| Victoria            | [@Toria-Sam](https://github.com/Toria-Sam)                                        
-| Adannia             | [@Debby_Floxy15](https://github.com/Debby_Floxy15)                                       
-| Tobby               | [@enochoyewole](https://github.com/enochoyewole)                                         
-| Qudus               | [@Qooks18009009](https://github.com/Qooks18009009)
-| Asimau              | [@asimau26](https://githubcomasimau26)
+| Munirat (Captain)   | [@muni-standing](https://github.com/muni-standing) |                                        
+| Wale (Vice Captain) | [@Mitchr3p](https://github.com/Mitchr3p) |
+| Victor              | [@veekthorann](https://github.com/veekthorann) |                                        
+| Aisha               | [@Ayeeshaaxoxo](https://github.com/Ayeeshaaxoxo) |                                        
+| Ayobami             | [@ay-ux1](https://github.com/ay-ux1) |   
+| Uyai                | [@uyaixx](https://github.com/uyaixx) |                                        
+| Afeez               | [@illusions90](https://github.com/illusions90) |                                       
+| Hamida              | [@ihammy266](https://github.com/ihammy266) |                                        
+| Victoria            | [@Toria-Sam](https://github.com/Toria-Sam) |                                       
+| Adannia             | [@Debby-Floxy15](https://github.com/Debby-Floxy15) |                                      
+| Tobby               | [@enochoyewole](https://github.com/enochoyewole) |                                        
+| Qudus               | [@Qooks18009009](https://github.com/Qooks18009009) |
+| Asimau              | [@asimau26](https://githubcom/asimau26) |
 
 ## 📋 Individual Team Contributions
 
