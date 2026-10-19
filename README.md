@@ -7,11 +7,11 @@ A responsive planets web application developed as the Group 8 Capstone Project f
 
 Built with **HTML, CSS, and JavaScript**, the application allows users to search for planets, explore their characteristics, compare planetary facts, and switch between light and dark modes.
 
-## 🌍 Live Website
+## 📂 GitHub Repository
 
-**[View Our Planets App](https://group8-planets-hajime.netlify.app)**
+**Repository:** [Group 8 — Planets App](https://github.com/muni-standing/group-8-frontend-capstone-hajime-cohort)
 
-The application is deployed on Netlify.
+This repository contains the project's source code, documentation, and development history.
 
 ## ✨ Features
 
@@ -36,21 +36,19 @@ The application is deployed on Netlify.
 
 | Team Member | GitHub Profile |
 |---|---|
-| Munirat (Captain) | [@muni-standing](https://github.com/muni-standing) |
+| Munirat (Captain)   | [@muni-standing](https://github.com/muni-standing) |                                        
 | Wale (Vice Captain) | [@Mitchr3p](https://github.com/Mitchr3p) |
-| Victor | To be added |
-| Aisha | To be added |
-| Ayobami | [@ay-ux1](https://github.com/ay-ux1) |
-| Uyai | To be added |
-| Afeez | To be added |
-| Hamida | To be added |
-| Victoria | To be added |
-| Adannia | To be added |
-| Tobby | To be added |
-| Qudus | [@Qooks18009009](https://github.com/Qooks18009009) |
-| Asimau | To be added |
-
-*Remaining GitHub profile links will be added during final documentation.*
+| Victor              | [@veekthorann](https://github.com/veekthorann) |                                        
+| Aisha               | [@Ayeeshaaxoxo](https://github.com/Ayeeshaaxoxo) |                                        
+| Ayobami             | [@ay-ux1](https://github.com/ay-ux1) |   
+| Uyai                | [@uyaixx](https://github.com/uyaixx) |                                        
+| Afeez               | [@illusions90](https://github.com/illusions90) |                                       
+| Hamida              | [@ihammy266](https://github.com/ihammy266) |                                        
+| Victoria            | [@Toria-Sam](https://github.com/Toria-Sam) |                                       
+| Adannia             | [@Debby-Floxy15](https://github.com/Debby-Floxy15) |                                      
+| Tobby               | [@enochoyewole](https://github.com/enochoyewole) |                                        
+| Qudus               | [@Qooks18009009](https://github.com/Qooks18009009) |
+| Asimau              | [@asimau26](https://githubcom/asimau26) |
 
 ## 📋 Individual Team Contributions
 
@@ -74,7 +72,9 @@ The table below documents each member's contributions to the development, docume
 
 ## 🚀 Running the Project Locally
 
-Follow these steps to run the Planets App on your computer.
+You can access the project's source code through our [GitHub Repository](https://github.com/muni-standing/group-8-frontend-capstone-hajime-cohort).
+
+Follow the steps below to run the Planets App on your computer.
 
 ### Prerequisites
 
@@ -136,11 +136,9 @@ Group 8 followed a collaborative GitHub workflow throughout the project.
 
 ## 🌐 Deployment
 
-The Planets App is hosted on **Netlify** and connected to this GitHub repository.
+The Planets App is deployed on Netlify and connected to our GitHub repository. Updates merged into the `main` branch trigger a new deployment.
 
-Changes merged into the `main` branch trigger a new deployment.
-
-**Live Site:** https://group8-planets-hajime.netlify.app
+**Live Website:** [View Group 8 Planets App](https://group8-planets-hajime.netlify.app)
 
 ## 📚 Project Information
 
