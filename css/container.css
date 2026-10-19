@@ -1,5 +1,28 @@
 .container {
   max-width: var(--size-page-max-width);
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 40px 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    gap: var(--size-spacing-4); /* 32px, matches Figma */
+    padding-block: var(--size-spacing-4);
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media (max-width: 600px) {
+  main {
+    gap: 32px;
+  }
 }

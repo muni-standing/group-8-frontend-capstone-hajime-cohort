@@ -2,24 +2,23 @@ body {
   background-color: var(--color-bg);
 }
 .page-layout {
+  width: 100%; 
   margin-inline: auto;
   box-sizing: border-box;
   max-width: var(--size-page-max-width);
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2px 2px;
   height: 52.08px;
   width: 100%;
 }
 
 .navbar img {
   width: 121px;
-  height: 53px;
+  height: 52.08px;
 }
 
 .theme-btn {
@@ -35,13 +34,13 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 12px;
+  padding: 0;  /* removes the browser's default button padding */
 }
 
 /* ========== Focus (matches the search bar ring) ========== */
 .theme-btn:focus-visible {
   outline: 0;
-  border-radius: 6px;
+  border-radius: 4px;
   box-shadow:
     0 0 0 3px var(--color-bg),
     0 0 0 5px var(--color-accent);

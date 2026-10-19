@@ -105,9 +105,3 @@ img {
 [hidden] {
   display: none !important;
 }
-
-@media (max-width: 600px) {
-  .page-layout {
-    margin-bottom: 32px;
-  }
-}

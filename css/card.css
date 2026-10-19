@@ -19,7 +19,7 @@
   box-sizing: border-box;
   width: 100%;
   max-width: var(--size-page-max-width);
-  margin: var(--size-spacing-3) auto 0;
+  margin: 0 auto;
   background: var(--color-surface);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-card);
@@ -27,13 +27,13 @@
 }
 
 .card {
-  padding: 48px;
+  padding: 48px 53px 48px 48px;
 }
 
 .card-content {
   display: flex;
   align-items: flex-start;
-  gap: 37px;
+  gap: 32px;
 }
 
 .card-image-container {
@@ -61,7 +61,7 @@
 }
 
 .card-type {
-  margin: 2px 0 0;
+  margin: 0;
   font-size: 16px;
   color: var(--color-accent);
 }
@@ -79,8 +79,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--size-spacing-2);
-  margin-top: 32px;
-  padding: 15px 32px 17px;
+  margin-top: 24px;
+  padding: 15px 32px;
   background: var(--color-bg);
   border-radius: var(--radius-button);
 }
@@ -107,8 +107,8 @@
 .card-icon-stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 19px 65px;
-  margin-top: 37px;
+  gap: 16px;
+  margin-top: 24px;
 }
 
 .card-icon-stat {
