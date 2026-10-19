@@ -36,21 +36,19 @@ This repository contains the project's source code, documentation, and developme
 
 | Team Member | GitHub Profile |
 |---|---|
-| Munirat (Captain) | [@muni-standing](https://github.com/muni-standing) |
-| Wale (Vice Captain) | [@Mitchr3p](https://github.com/Mitchr3p) |
-| Victor | To be added |
-| Aisha | To be added |
-| Ayobami | [@ay-ux1](https://github.com/ay-ux1) |
-| Uyai | To be added |
-| Afeez | To be added |
-| Hamida | To be added |
-| Victoria | To be added |
-| Adannia | To be added |
-| Tobby | To be added |
-| Qudus | [@Qooks18009009](https://github.com/Qooks18009009) |
-| Asimau | To be added |
-
-*Remaining GitHub profile links will be added during final documentation.*
+| Munirat (Captain)   |  [@muni-standing](https://github.com/muni-standing)                                         
+| Wale (Vice Captain) | [@Mitchr3p](https://github.com/Mitchr3p) 
+| Victor              | [@veekthorann](https://github.com/veekthorann)                                         
+| Aisha               | [@Ayeeshaaxoxo](https://github.com/Ayeeshaaxoxo)                                         
+| Ayobami             | [@ay-ux1](https://github.com/ay-ux1)     
+| Uyai                | [@uyaixx](https://github.com/uyaixx)                                         
+| Afeez               | [@illusions90](https://github.com/illusions90)                                        
+| Hamida              | [@ihammy266](https://github.com/ihammy266)                                         
+| Victoria            | [@Toria-Sam](https://github.com/Toria-Sam)                                        
+| Adannia             | [@Debby_Floxy15](https://github.com/Debby_Floxy15)                                       
+| Tobby               | [@enochoyewole](https://github.com/enochoyewole)                                         
+| Qudus               | [@Qooks18009009](https://github.com/Qooks18009009)
+| Asimau              | [@asimau26](https://githubcomasimau26)
 
 ## 📋 Individual Team Contributions
 
