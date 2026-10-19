@@ -1,4 +1,3 @@
-
 body {
   background-color: var(--color-bg);
 }
@@ -28,7 +27,7 @@ body {
   border: none;
   cursor: pointer;
   color: var(--color-text-secondary);
-  font-family: var(--color-font-mono);
+  font-family: var(--font-mono);
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 2.5px;
