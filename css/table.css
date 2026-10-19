@@ -49,11 +49,8 @@ body .table-section {
     color: var(--heading-color);
     font-family: var(--font-main);
 
-    width: calc(100% - 48px);
+    width: 100%;
     max-width: var(--size-page-max-width);
-    margin-inline: auto;
-
-    padding-top: 32px;
 }
 
 
@@ -97,10 +94,6 @@ body .table-section {
 .last-head {
     border-top-right-radius: 15px;
 }
-.table-section {
-    margin-bottom: 40px;
-}
-
 
 /* Table headings */
 .planet-table th {
@@ -154,13 +147,23 @@ body .table-section {
 .table-container {
     border-radius: 15px;
 }
+
 /* TABLET BREAKPOINT */
-/* Applies to screens 1023px wide OR SMALLER (Tablets and Mobile) */
+/* Applies to screens 1024px wide OR SMALLER (Tablets and Mobile) */
 @media screen and (max-width: 1024px) {
     .planet-table {
         width: 100%;
         overflow-x: auto;
         max-width: 1024px;
+    }
+
+    /* NEW: rounded bottom corners on tablet and mobile */
+    .planet-table tbody tr:last-child td:first-child {
+        border-bottom-left-radius: 20px;
+    }
+
+    .planet-table tbody tr:last-child td:last-child {
+        border-bottom-right-radius: 20px;
     }
 }
 
@@ -172,31 +175,37 @@ body .table-section {
         width: 100%;
         overflow-x: auto;
         max-width: 100%;
-            }
-           
+    }
+
     .planet-table th,
     .planet-table td {
         padding: 8px;
         font-size: 12px;
     }
-         .planet-table .mass{
-                    display: none;
-        }
-        .second-part {
-             display: none;
-                     }
+
+    .planet-table .mass {
+        display: none;
     }
+
+    .second-part {
+        display: none;
+    }
+
+    /* NEW: smaller corners on phones, 10.44px from Figma */
+    .planet-table tbody tr:last-child td:first-child {
+        border-bottom-left-radius: 10.44px;
+    }
+
+    .planet-table tbody tr:last-child td:last-child {
+        border-bottom-right-radius: 10.44px;
+    }
+}
 
 
 @media screen and (max-width: 600px) {
-    body .table-section {
-        width: calc(100% - 32px);
-    }
-
     .planet-table th,
     .planet-table td {
         padding: 10px 6px;
         font-size: 12px;
     }
 }
-
