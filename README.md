@@ -7,6 +7,13 @@ A responsive planets web application developed as the Group 8 Capstone Project f
 
 Built with **HTML, CSS, and JavaScript**, the application allows users to search for planets, explore their characteristics, compare planetary facts, and switch between light and dark modes.
 
+## 🌍 Quick Preview
+
+Want to see what we built? 🪐
+
+🚀 **[Explore the Planets App](https://group8-planets-hajime.netlify.app)**
+
+
 ## 📂 GitHub Repository
 
 **Repository:** [Group 8 — Planets App](https://github.com/muni-standing/group-8-frontend-capstone-hajime-cohort)
@@ -36,19 +43,19 @@ This repository contains the project's source code, documentation, and developme
 
 | Team Member | GitHub Profile |
 |---|---|
-| Munirat (Captain)   | [@muni-standing](https://github.com/muni-standing) |                                        
-| Wale (Vice Captain) | [@Mitchr3p](https://github.com/Mitchr3p) |
-| Victor              | [@veekthorann](https://github.com/veekthorann) |                                        
-| Aisha               | [@Ayeeshaaxoxo](https://github.com/Ayeeshaaxoxo) |                                        
-| Ayobami             | [@ay-ux1](https://github.com/ay-ux1) |   
-| Uyai                | [@uyaixx](https://github.com/uyaixx) |                                        
-| Afeez               | [@illusions90](https://github.com/illusions90) |                                       
-| Hamida              | [@ihammy266](https://github.com/ihammy266) |                                        
-| Victoria            | [@Toria-Sam](https://github.com/Toria-Sam) |                                       
-| Adannia             | [@Debby-Floxy15](https://github.com/Debby-Floxy15) |                                      
-| Tobby               | [@enochoyewole](https://github.com/enochoyewole) |                                        
-| Qudus               | [@Qooks18009009](https://github.com/Qooks18009009) |
-| Asimau              | [@asimau26](https://githubcom/asimau26) |
+| Munirat Adeyemi (Captain)   | [@muni-standing](https://github.com/muni-standing) |
+| Adewale Oni (Vice Captain) | [@Mitchr3p](https://github.com/Mitchr3p) |
+| Victor Benjamin              | [@veekthorann](https://github.com/veekthorann) |
+| Aisha Sasi              | [@Ayeeshaaxoxo](https://github.com/Ayeeshaaxoxo) |
+| Qoweey Afolayan            | [@ay-ux1](https://github.com/ay-ux1) |
+| Venus Augustine                | [@uyaixx](https://github.com/uyaixx) |
+| Afeez Jimoh               | [@illusions90](https://github.com/illusions90) |
+| Hamida Ibrahim              | [@ihammy266](https://github.com/ihammy266) |
+| Victoria Umoh            | [@Toria-Sam](https://github.com/Toria-Sam) |
+| Ekwenye Florence             | [@Debby-Floxy15](https://github.com/Debby-Floxy15) |
+| Enoch Oyewole               | [@enochoyewole](https://github.com/enochoyewole) |
+| Abdulqudus Abdullahi               | [@Qooks18009009](https://github.com/Qooks18009009) |
+| Asimau Adekunle              | [@asimau26](https://github.com/asimau26) |
 
 ## 📋 Individual Team Contributions
 
@@ -56,19 +63,19 @@ The table below documents each member's contributions to the development, docume
 
 | Team Member | Role | Individual Contributions |
 |---|---|---|
-| **Munirat** | Team Captain | Set up the initial project structure and foundational files; extracted design values from Figma and implemented shared CSS variables; added shared assets and made minor code corrections and integration fixes. Coordinated team progress, reviewed pull requests, managed GitHub workflows, organised testing, handled Netlify deployment, and prepared project documentation. |
-| **Wale** | Vice Captain | Co-coordinated team activities, monitored project progress, assisted with task distribution, and supported teammates throughout development; prepared Git/GitHub documentation and video tutorials; guided members through Git workflows; reviewed, approved, and merged pull requests; contributed to JavaScript integration and bug fixes; and implemented the footer CSS. |
-| **Victor** | Developer | Developed the header/navbar HTML and CSS, including layout, responsiveness, and subsequent improvements. |
-| **Aisha** | Developer | Developed the JavaScript functionality for switching between light and dark modes. |
-| **Ayobami** | Developer | Developed the search interface HTML and CSS; implemented the footer HTML; and contributed to bug fixes and integration improvements. |
-| **Uyai** | Developer | Developed the planet information card HTML structure, including planet details, statistics, loading state, and empty-results state. |
-| **Afeez** | Developer | Developed the planet card CSS, including its layout, visual styling, and responsive presentation. |
-| **Hamida** | Developer | Collaborated with Victoria on the planet comparison table, primarily developing its HTML structure, semantic markup, and planetary data while assisting with styling and integration. |
-| **Victoria** | Developer | Collaborated with Hamida on the planet comparison table, primarily developing its CSS, responsive layout, and visual presentation while assisting with HTML and overall table development. |
-| **Adannia** | Developer | Developed and submitted a footer HTML contribution. Her PR was not merged because an alternative footer implementation had already been integrated. |
-| **Tobby** | Developer | Participated in final project testing and assisted with collecting team members' GitHub profile information for README documentation. |
-| **Qudus** | Developer | Developed the JavaScript functionality for fetching planetary data from the JSON API, handling planet searches, updating card information, and managing loading and error states. |
-| **Asimau** | Developer | Participated in the footer CSS development task with guidance from Wale; the final implementation was completed by Wale. |
+| **Munirat Adeyemi** | Team Captain | Set up the initial project structure and foundational files; extracted design values from Figma and implemented shared CSS variables; added shared assets and made minor code corrections and integration fixes. Coordinated team progress, reviewed pull requests, managed GitHub workflows, organised testing, handled Netlify deployment, and prepared project documentation. |
+| **Adewale Oni** | Vice Captain | Co-coordinated team activities, monitored project progress, assisted with task distribution, and supported teammates throughout development; prepared Git/GitHub documentation and video tutorials; guided members through Git workflows; reviewed, approved, and merged pull requests; contributed to JavaScript integration and bug fixes; and implemented the footer CSS. |
+| **Victor Benjamin** | Developer | Developed the header/navbar HTML and CSS, including layout, responsiveness, and subsequent improvements. |
+| **Aisha Sasi** | Developer | Developed the JavaScript functionality for switching between light and dark modes. |
+| **Qoweey Afolayan** | Developer | Developed the search interface HTML and CSS; implemented the footer HTML; and contributed to bug fixes and integration improvements. |
+| **Venus Augustine** | Developer | Developed the planet information card HTML structure, including planet details, statistics, loading state, and empty-results state. |
+| **Afeez Jimoh** | Developer | Developed the planet card CSS, including its layout, visual styling, and responsive presentation. |
+| **Hamida Ibrahim** | Developer | Collaborated with Victoria Umoh on the planet comparison table, primarily developing its HTML structure, semantic markup, and planetary data while assisting with styling and integration. |
+| **Victoria Umoh** | Developer | Collaborated with Hamida Ibrahim on the planet comparison table, primarily developing its CSS, responsive layout, and visual presentation while assisting with HTML and overall table development. |
+| **Ekwenye Florence** | Developer | Developed and submitted a footer HTML contribution. Her PR was not merged because an alternative footer implementation had already been integrated. |
+| **Enoch Oyewole** | Developer | Participated in final project testing and assisted with collecting team members' GitHub profile information for README documentation. |
+| **Abdulqudus Abdullahi** | Developer | Developed the JavaScript functionality for fetching planetary data from the JSON API, handling planet searches, updating card information, and managing loading and error states. |
+| **Asimau Adekunle** | Developer | Participated in the footer CSS development task with guidance from Adewale; the final implementation was completed by Adewale. |
 
 ## 🚀 Running the Project Locally
 
